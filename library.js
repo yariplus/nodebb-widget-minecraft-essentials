@@ -23,7 +23,7 @@ plugin.load = function (data, next) {
 	NodeBB.init();
 
 	// Settings
-	NodeBB.SocketAdmin.settings.syncMinecraftIntegration = function(){
+	NodeBB.SocketAdmin.settings.syncMinecraftWidgets = function(){
 		Config.settings.sync(function(){
 			Config.logSettings();
 		});

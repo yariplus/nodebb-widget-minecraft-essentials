@@ -1,9 +1,10 @@
 NodeBB Plugin Minecraft Integration and NodeBB Widget Minecraft
-Essentials's source code is released under the CC0 1.0 Universal license.
-
-Except as noted below, the following terms apply to all files in this distribution.
+Essentials's source code is released under the CC0 1.0 Universal license
+or the MIT license.
 
 /* ---------------------------------------------------------------- */
+
+Except as noted below, the following terms apply to all files in this distribution.
 
 Copyright © 2015 Timothy Fike
 

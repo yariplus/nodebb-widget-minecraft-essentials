@@ -1,6 +1,6 @@
 # Minecraft Widgets
 
-Basic widgets for a Minecraft server status and a server map.
+Adds a widget for a basic Minecraft server status.
 
 This plugin is for small NodeBB forums with a single Minecraft server.
 

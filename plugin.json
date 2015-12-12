@@ -18,5 +18,8 @@
 	"staticDirs": {
 		"public": "public"
 	},
-	"languages": "public/language"
+	"languages": "public/language",
+	"scripts": [
+		"./public/js/script.js"
+	]
 }

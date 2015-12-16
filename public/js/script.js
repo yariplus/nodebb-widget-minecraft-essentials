@@ -16,7 +16,8 @@ $(function(){
 	}
 
 	define('admin/plugins/minecraft-widgets', function () {
-		MinecraftIntegration.init = function () {
+		MinecraftWidgets = {};
+		MinecraftWidgets.init = function () {
 			$('#minecraft-widgets').on('focus', '.form-control', function() {
 				var parent = $(this).closest('.input-row');
 
@@ -28,6 +29,6 @@ $(function(){
 			});
 		};
 
-		return MinecraftIntegration;
+		return MinecraftWidgets;
 	});
 });

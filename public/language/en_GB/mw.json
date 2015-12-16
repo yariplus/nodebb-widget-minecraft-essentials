@@ -31,8 +31,11 @@
 	"help_queryport": "Enter the Query Port in server.properties. Defaults to: 25565",
 	"error_queryport": "Needs to be a port between 1-65535",
 
-	"navbar_status": "Show Status in navbar.",
+	"navbar_status": "Show Status in navbar?",
 	"help_navbar_status": "Displays a mini server status on the site navbar.",
+
+	"show_icon": "Show server icon?",
+	"help_show_icon": "If a server icon is found, use it instead of a green check mark to indicate the server is online.",
 
 	"map_options": "Mini Map Options",
 

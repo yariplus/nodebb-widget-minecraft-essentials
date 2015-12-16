@@ -4,7 +4,7 @@ $(function(){
 
 		var icon;
 		if (config.MinecraftWidgets.isServerOnline) {
-			if (config.MinecraftWidgets.icon) {
+			if (config.MinecraftWidgets.icon && config.MinecraftWidgets.showIcon) {
 				icon = '<img src="'+config.MinecraftWidgets.icon+'" style="height: 46px; margin-right: 0.75em;">';
 			}else{
 				icon = '<span style="height: 25px; vertical-align: middle; display: inline-block; margin-right: 0.75em;"><i style="font-size: 2.5rem;" class="fa fa-check-circle text-success"></i></span>';

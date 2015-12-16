@@ -57,6 +57,17 @@
 
 	<br>
 
+	<div class="row input-row">
+		<div class="col-sm-7 col-xs-12 input-field">
+			<label class="control-label">
+				<input class="form-control" type="checkbox" data-key="showIcon"> [[mw:show_icon]]
+			</label>
+		</div>
+		<div class="col-sm-5 help-text" data-help="[[mw:help_show_icon]]"></div>
+	</div>
+
+	<br>
+
 	<button type="button" id="save" class="btn btn-success">Save Settings</button>
 
 </form>

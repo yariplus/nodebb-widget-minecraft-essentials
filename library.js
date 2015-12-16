@@ -33,3 +33,9 @@ plugin.load = function (data, next) {
 
 	next();
 };
+
+plugin.getConfig = function (data, next) {
+	data.MinecraftWidgets = Config.settings.get();
+	data.MinecraftWidgets.onlinePlayers = Backend.status ? Backend.status.onlinePlayers : 0;
+	next(null, data);
+};

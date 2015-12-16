@@ -46,6 +46,16 @@
 
 	<br>
 
+	<div class="row input-row">
+		<div class="col-sm-7 col-xs-12 input-field">
+			<div class="checkbox">
+				<input type="checkbox" data-key="navbarStatus"/>
+				<label for="avatarCDN">[[mw:navbar_status]]</label>
+			</div>
+		</div>
+		<div class="col-sm-5 help-text" data-help="[[mw:help_navbar_status]]"></div>
+	</div>
+
 	<button type="button" id="save">Save</button>
 
 </form>

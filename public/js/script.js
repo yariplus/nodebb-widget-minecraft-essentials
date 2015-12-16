@@ -18,7 +18,7 @@ $(function(){
 			'<div style="display: inline-block; vertical-align: middle; margin-right: 0.5em;">'+icon+
 				'<span style="opacity: 0.8; display: inline-block; vertical-align: middle;">'+
 					'<div style="font-size: larger;">'+config.MinecraftWidgets.address+'</div>'+
-					'<div style="opacity: 0.6; font-size: smaller;">Players online: '+config.MinecraftWidgets.onlinePlayers+'</div>'+
+					'<div style="opacity: 0.6; font-size: smaller;">Players online: <span class="mwOnlinePlayers">'+config.MinecraftWidgets.onlinePlayers+'</span></div>'+
 				'</span>'+
 			'</div></div>'+
 		'</ul>').insertBefore($('.pagination-block, #main-nav').first());
@@ -39,5 +39,9 @@ $(function(){
 		};
 
 		return MinecraftWidgets;
+	});
+
+	socket.on('mw.StatusUpdate', function (data) {
+		$('.mwOnlinePlayers').text(data.onlinePlayers);
 	});
 });

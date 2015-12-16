@@ -48,15 +48,16 @@
 
 	<div class="row input-row">
 		<div class="col-sm-7 col-xs-12 input-field">
-			<div class="checkbox">
-				<input type="checkbox" data-key="navbarStatus"/>
-				<label for="avatarCDN">[[mw:navbar_status]]</label>
-			</div>
+			<label class="control-label">
+				<input class="form-control" type="checkbox" data-key="navbarStatus"> [[mw:navbar_status]]
+			</label>
 		</div>
 		<div class="col-sm-5 help-text" data-help="[[mw:help_navbar_status]]"></div>
 	</div>
 
-	<button type="button" id="save">Save</button>
+	<br>
+
+	<button type="button" id="save" class="btn btn-success">Save Settings</button>
 
 </form>
 

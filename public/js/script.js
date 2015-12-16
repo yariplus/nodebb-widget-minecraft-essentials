@@ -14,4 +14,20 @@ $(function(){
 			'</div></div>'+
 		'</ul>').insertBefore($('.pagination-block, #main-nav').first());
 	}
+
+	define('admin/plugins/minecraft-widgets', function () {
+		MinecraftIntegration.init = function () {
+			$('#minecraft-widgets').on('focus', '.form-control', function() {
+				var parent = $(this).closest('.input-row');
+
+				$('.input-row.active').removeClass('active');
+				parent.addClass('active').removeClass('error');
+
+				var help = parent.find('.help-text');
+				help.html(help.attr('data-help'));
+			});
+		};
+
+		return MinecraftIntegration;
+	});
 });

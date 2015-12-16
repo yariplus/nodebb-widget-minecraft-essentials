@@ -1,0 +1,45 @@
+{
+	"minecraft": "Minecraft",
+	"minecraft_widgets": "Minecraft Widgets",
+
+	"avatar_cdn": "Avatar CDN",
+	"help_avatar_cdn": "Choose where the plugin will acquire its Minecraft avatars.",
+	"error_avatar_cdn": "",
+
+	"avatar_size": "Avatar Size",
+	"help_avatar_size": "The size in pixels to display Minecraft avatars.",
+	"error_avatar_size": "Needs to be equal to or greater than 40.",
+
+	"avatar_style": "Avatar Style",
+	"help_avatar_style": "Choose the style of Minecraft avatar, will default to Flat if the selected option is not supported by the selected Avatar CDN.",
+	"error_avatar_style": "",
+	"flat": "Flat",
+
+	"cdn_custom": "Custom CDN",
+	"custom_cdn": "Custom CDN URL",
+	"help_custom_cdn": "The URL to fetch avatars from. Variables include {name}, {size}, and {style}.",
+
+	"server_name": "Server Name",
+	"help_server_name": "Enter a name for the server that is at least 6 characters long.",
+	"error_server_name": "Needs to be at least 6 characters long.",
+
+	"server_address": "Server Address",
+	"help_server_address": "Enter the address that players use to connect to the server. Can be an IP, DNS, or SRV. Defaults to: 0.0.0.0:25565",
+	"error_server_address": "Needs to be a valid IP, DNS, or SRV.",
+
+	"server_queryport": "Query Port",
+	"help_queryport": "Enter the Query Port in server.properties. Defaults to: 25565",
+	"error_queryport": "Needs to be a port between 1-65535",
+
+	"navbar_status": "Show Status in navbar.",
+	"help_navbar_status": "Displays a mini server status on the site navbar.",
+
+	"map_options": "Mini Map Options",
+
+	"status": "Status",
+	"plugin_list": "Plugins",
+	"mod_list": "Mods",
+	"mod_pack_info": "Mod Pack",
+	"sponge_mods": "Sponge Mods",
+	"hub_list": "Hub Servers"
+}

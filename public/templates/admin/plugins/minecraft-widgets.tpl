@@ -68,6 +68,17 @@
 
 	<br>
 
+	<div class="row input-row">
+		<div class="col-sm-7 col-xs-12 input-field">
+			<label class="control-label">
+				<input class="form-control" type="checkbox" data-key="noQuery"> [[mw:no_query]]
+			</label>
+		</div>
+		<div class="col-sm-5 help-text" data-help="[[mw:help_no_query]]"></div>
+	</div>
+
+	<br>
+
 	<button type="button" id="save" class="btn btn-success">Save Settings</button>
 
 </form>

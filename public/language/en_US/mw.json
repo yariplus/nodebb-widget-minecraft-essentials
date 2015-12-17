@@ -37,6 +37,9 @@
 	"show_icon": "Show server icon?",
 	"help_show_icon": "If a server icon is found, use it instead of a green check mark to indicate the server is online.",
 
+	"no_query": "Skip ServerQuery?",
+	"help_no_query": "Modern Minecraft servers don't require a ServerQuery to work and often block query requests. This option will stop this plugin from attempting to use ServerQuery, but it will still use ServerListPing to get the data it needs.",
+
 	"map_options": "Mini Map Options",
 
 	"status": "Status",

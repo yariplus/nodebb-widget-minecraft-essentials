@@ -42,9 +42,9 @@ $(function(){
 	});
 
 	var clipboard = new Clipboard('.servername');
-    clipboard.on('success', function() {
+	clipboard.on('success', function() {
 		$('.servername').replaceWith('Copied!');
-    });
+	});
 
 	socket.on('mw.StatusUpdate', function (data) {
 		$('.mwOnlinePlayers').text(data.onlinePlayers);

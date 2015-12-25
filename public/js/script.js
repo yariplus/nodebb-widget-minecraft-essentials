@@ -17,7 +17,7 @@ $(function(){
 			'<div style="height: 50px; display: table-cell; vertical-align: middle;" class="mw-container">'+
 			'<div style="display: inline-block; vertical-align: middle; margin-right: 0.5em;">'+icon+
 				'<span style="opacity: 0.8; display: inline-block; vertical-align: middle;">'+
-					'<div style="font-size: larger;">'+config.MinecraftWidgets.address+'</div>'+
+					'<div style="font-size: larger;" class="servername" data-clipboard-text="'+config.MinecraftWidgets.address+'">'+config.MinecraftWidgets.address+'</div>'+
 					'<div style="opacity: 0.6; font-size: smaller;">Players online: <span class="mwOnlinePlayers">'+config.MinecraftWidgets.onlinePlayers+'</span></div>'+
 				'</span>'+
 			'</div></div>'+
@@ -40,6 +40,11 @@ $(function(){
 
 		return MinecraftWidgets;
 	});
+
+	var clipboard = new Clipboard('.servername');
+    clipboard.on('success', function() {
+		$('.servername').replaceWith('Copied!');
+    });
 
 	socket.on('mw.StatusUpdate', function (data) {
 		$('.mwOnlinePlayers').text(data.onlinePlayers);

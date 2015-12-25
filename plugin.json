@@ -21,7 +21,6 @@
 	},
 	"languages": "public/language",
 	"scripts": [
-		"./public/js/vendor/clipboard.min.js",
 		"./public/js/script.js"
 	]
 }

@@ -1,16 +1,17 @@
-"use strict";
+'use strict';
 
-var	plugin = module.exports = {
-		Widgets: require('./lib/widgets'),
-		Hooks: require('./lib/hooks')
-	},
+var plugin = module.exports;
 
-	Backend = require('./lib/backend'),
-	Config  = require('./lib/config'),
-	NodeBB  = require('./lib/nodebb'),
-	Utils   = require('./lib/utils'),
-	Updater = require('./lib/updater'),
-	Views   = require('./lib/views');
+plugin.Widgets = require('./lib/widgets');
+plugin.Hooks   = require('./lib/hooks');
+
+var analytics = require('./lib/analytics');
+var Backend   = require('./lib/backend');
+var Config    = require('./lib/config');
+var NodeBB    = require('./lib/nodebb');
+var Utils     = require('./lib/utils');
+var Updater   = require('./lib/updater');
+var Views     = require('./lib/views');
 
 plugin.load = function (data, next) {
 

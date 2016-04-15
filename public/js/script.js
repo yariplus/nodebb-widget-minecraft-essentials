@@ -55,20 +55,3 @@ $(function(){
 		});
 	});
 });
-
-define('admin/plugins/minecraft-widgets', function () {
-	MinecraftWidgets = {};
-	MinecraftWidgets.init = function () {
-		$('#minecraft-widgets').on('focus', '.form-control', function() {
-			var parent = $(this).closest('.input-row');
-
-			$('.input-row.active').removeClass('active');
-			parent.addClass('active').removeClass('error');
-
-			var help = parent.find('.help-text');
-			help.html(help.attr('data-help'));
-		});
-	};
-
-	return MinecraftWidgets;
-});

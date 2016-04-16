@@ -12,9 +12,7 @@
 		<input data-key="address" class="form-control" type="text" placeholder=""/>
 	</div>
 
-	<br>
-
-	<div>
+	<div style="display:none;">
 		<label for="avatarCDN" data-toggle="tooltip" data-placement="right" title="[[mw:help_avatar_cdn]]">[[mw:avatar_cdn]]</label>
 		<select data-key="avatarCDN" class="form-control">
 			<option value="mojang" selected="selected">Mojang</option>-->

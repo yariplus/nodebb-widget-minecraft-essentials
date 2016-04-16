@@ -28,8 +28,8 @@
 	"error_server_address": "",
 
 	"server_queryport": "Query Port",
-	"help_queryport": "Enter the query.port in your server.properties. Also, make sure enable-query is set to true. Defaults to: 25565",
-	"error_queryport": "Needs to be a port between 1-65535",
+	"help_server_queryport": "If you want to use ServerQuery, enter the query.port from your server.properties. Defaults to: 25565",
+	"error_server_queryport": "Needs to be a port between 1-65535",
 
 	"navbar_status": "Show Status in navbar?",
 	"help_navbar_status": "Displays a mini server status on the site navbar.",

@@ -26,6 +26,7 @@ $(function(){
 				'</span>'+
 			'</div></div>'+
 		'</ul>').insertBefore($('.pagination-block, #main-nav').first());
+
 	}
 
 	socket.on('mw.StatusUpdate', function (data) {
